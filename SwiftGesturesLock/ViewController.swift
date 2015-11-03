@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var gesturesView: GesturesLockView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let frame = CGRectMake(0, 64, 320, 320);
+        gesturesView = GesturesLockView(frame: frame)
+        view.addSubview(gesturesView)
     }
 
     override func didReceiveMemoryWarning() {

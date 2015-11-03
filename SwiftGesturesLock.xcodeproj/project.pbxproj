@@ -12,6 +12,7 @@
 		31D5BDC11BE85D96009B2D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D5BDBF1BE85D96009B2D49 /* Main.storyboard */; };
 		31D5BDC31BE85D96009B2D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D5BDC21BE85D96009B2D49 /* Assets.xcassets */; };
 		31D5BDC61BE85D96009B2D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D5BDC41BE85D96009B2D49 /* LaunchScreen.storyboard */; };
+		31D5BDCF1BE85E08009B2D49 /* GesturesLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5BDCE1BE85E08009B2D49 /* GesturesLockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		31D5BDC21BE85D96009B2D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D5BDC51BE85D96009B2D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D5BDC71BE85D96009B2D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D5BDCE1BE85E08009B2D49 /* GesturesLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GesturesLockView.swift; path = src/GesturesLockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		31D5BDBA1BE85D96009B2D49 /* SwiftGesturesLock */ = {
 			isa = PBXGroup;
 			children = (
+				31D5BDCD1BE85DE1009B2D49 /* GesturesLock */,
 				31D5BDBB1BE85D96009B2D49 /* AppDelegate.swift */,
 				31D5BDBD1BE85D96009B2D49 /* ViewController.swift */,
 				31D5BDBF1BE85D96009B2D49 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				31D5BDC71BE85D96009B2D49 /* Info.plist */,
 			);
 			path = SwiftGesturesLock;
+			sourceTree = "<group>";
+		};
+		31D5BDCD1BE85DE1009B2D49 /* GesturesLock */ = {
+			isa = PBXGroup;
+			children = (
+				31D5BDCE1BE85E08009B2D49 /* GesturesLockView.swift */,
+			);
+			name = GesturesLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D5BDCF1BE85E08009B2D49 /* GesturesLockView.swift in Sources */,
 				31D5BDBE1BE85D96009B2D49 /* ViewController.swift in Sources */,
 				31D5BDBC1BE85D96009B2D49 /* AppDelegate.swift in Sources */,
 			);
